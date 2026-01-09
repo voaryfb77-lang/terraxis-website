@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "categorie": "Foncier",
+      "titre": "Bornage & délimitation",
+      "resume": "Clarification de limites et production de plans de référence.",
+      "lieu": "Madagascar",
+      "livrables": [
+        "Plan PDF",
+        "Rapport",
+        "DWG/SIG"
+      ]
+    },
+    {
+      "categorie": "BTP",
+      "titre": "Implantation et contrôle d'ouvrage",
+      "resume": "Mise en place d'axes et contrôles de conformité.",
+      "lieu": "Madagascar",
+      "livrables": [
+        "Fiche d'implantation",
+        "Rapport d'écarts"
+      ]
+    },
+    {
+      "categorie": "Mines",
+      "titre": "Calculs de volumes",
+      "resume": "Calculs sur levés périodiques avec méthode traçable.",
+      "lieu": "Madagascar",
+      "livrables": [
+        "Tableaux",
+        "Rapport",
+        "Cartes"
+      ]
+    },
+    {
+      "categorie": "LiDAR",
+      "titre": "Traitement nuage de points",
+      "resume": "Nettoyage, classification et production de livrables 2D/3D.",
+      "lieu": "Madagascar",
+      "livrables": [
+        "Nuage classifié",
+        "MNT/DSM",
+        "Plans"
+      ]
+    }
+  ]
+}

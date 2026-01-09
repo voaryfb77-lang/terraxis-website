@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact | TERRAXIS</title>
+  <meta name="description" content="Contactez TERRAXIS pour votre projet de topographie ou géomatique à Madagascar.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">TERRAXIS</span>
+        <span class="brand-sub">Cabinet de géomètre expert</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html">Accueil</a>
+        <a href="services.html">Services</a>
+        <a href="notre-cabinet.html">Notre cabinet</a>
+        <a href="realisations.html">Réalisations</a>
+        <a class="btn btn-primary" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  
+  
+<section class="page-hero">
+  <div class="container">
+    <div class="kicker">TERRAXIS</div>
+    <h1>Contact</h1>
+    <p>Décrivez votre projet. Nous vous répondons avec une proposition claire.</p>
+  </div>
+</section>
+<main class="container content">
+  <div class="prose">
+    <section>
+      <h2>Parlons de votre projet</h2>
+      <p>Décrivez votre besoin (localisation, objectif, délai, documents disponibles). Nous vous répondons avec une proposition claire : prestation, méthode, livrables et calendrier.</p>
+    </section>
+    <div class="success" id="form-success">✓ Merci ! Votre demande a bien été envoyée.</div>
+    <form class="form" id="contact-form">
+      <div class="field">
+        <label for="nom">Nom *</label>
+        <input id="nom" name="nom" type="text" required>
+      </div>
+      <div class="field">
+        <label for="email">Email *</label>
+        <input id="email" name="email" type="email" required>
+      </div>
+      <div class="field">
+        <label for="telephone">Téléphone</label>
+        <input id="telephone" name="telephone" type="tel">
+      </div>
+      <div class="field">
+        <label for="organisation">Organisation</label>
+        <input id="organisation" name="organisation" type="text">
+      </div>
+      <div class="field full">
+        <label for="service">Service concerné *</label>
+        <select id="service" name="service" required>
+          <option value="">Sélectionner...</option>
+          <option>Topographie foncière</option>
+          <option>Construction & ingénierie</option>
+          <option>Mines & carrières</option>
+          <option>LiDAR & traitement des données</option>
+        </select>
+      </div>
+      <div class="field full">
+        <label for="localisation">Localisation du projet</label>
+        <input id="localisation" name="localisation" type="text">
+      </div>
+      <div class="field full">
+        <label for="message">Description *</label>
+        <textarea id="message" name="message" required placeholder="Objectif, délai, documents disponibles..."></textarea>
+      </div>
+      <div class="field full">
+        <button class="btn btn-primary" type="submit">Envoyer la demande</button>
+        <p class="notice">En soumettant ce formulaire, vous acceptez d'être recontacté pour l'étude de votre demande.</p>
+      </div>
+    </form>
+  </div>
+</main>
+<script>
+document.getElementById('contact-form').addEventListener('submit',function(e){
+  e.preventDefault();
+  document.getElementById('form-success').style.display='block';
+  this.reset();
+  setTimeout(()=>document.getElementById('form-success').style.display='none',5000);
+});
+</script>
+
+  
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>TERRAXIS</h3>
+        <p>Cabinet de géomètre expert à Antananarivo (Madagascar). Sécurisation foncière, topographie d'ingénierie, mines & données géospatiales.</p>
+      </div>
+      <div>
+        <h4>Liens rapides</h4>
+        <ul>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="notre-cabinet.html">Notre cabinet</a></li>
+          <li><a href="realisations.html">Réalisations</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>Antananarivo, Madagascar</li>
+          <li><a href="contact.html">Demande de devis</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <small>© 2026 TERRAXIS – Tous droits réservés.</small>
+    </div>
+  </footer>
+</body>
+</html>

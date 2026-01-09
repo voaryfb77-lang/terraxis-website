@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Notre cabinet | TERRAXIS</title>
+  <meta name="description" content="Découvrez TERRAXIS : approche, méthodes, précision, outils et zone d'intervention à Madagascar.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">TERRAXIS</span>
+        <span class="brand-sub">Cabinet de géomètre expert</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html">Accueil</a>
+        <a href="services.html">Services</a>
+        <a href="notre-cabinet.html">Notre cabinet</a>
+        <a href="realisations.html">Réalisations</a>
+        <a class="btn btn-primary" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  
+  
+<section class="page-hero">
+  <div class="container">
+    <div class="kicker">TERRAXIS</div>
+    <h1>Notre cabinet</h1>
+    <p>Une équipe orientée résultat : précision, contrôle et livrables exploitables.</p>
+  </div>
+</section>
+<main class="container content">
+  <div class="prose">
+    <section>
+      <h2>Qui nous sommes</h2>
+      <p>TERRAXIS est un cabinet de géomètre expert basé à Antananarivo. Nous intervenons sur des missions foncières, d'ingénierie, minières et de données géospatiales, avec une exigence de qualité et de traçabilité.</p>
+    </section>
+    <section>
+      <h2>Notre méthode</h2>
+      <ul>
+        <li><strong>Cadrage :</strong> objectifs, précision, livrables attendus</li>
+        <li><strong>Acquisition :</strong> mesures terrain adaptées au contexte</li>
+        <li><strong>Contrôle :</strong> vérifications et cohérence</li>
+        <li><strong>Traitement :</strong> structuration des données</li>
+        <li><strong>Livraison :</strong> formats exploitables + synthèse</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Zone d'intervention</h2>
+      <p>Nous intervenons à Madagascar avec une organisation adaptée selon le périmètre, les contraintes terrain et les délais. Interventions régionales possibles selon faisabilité.</p>
+    </section>
+    <div class="cta">
+      <div>
+        <h3>Vous avez un projet à cadrer ?</h3>
+        <p>Nous vous aidons à définir la bonne approche (méthode, précision, livrables).</p>
+      </div>
+      <a class="btn btn-primary" href="contact.html">Contact / Devis</a>
+    </div>
+  </div>
+</main>
+
+  
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>TERRAXIS</h3>
+        <p>Cabinet de géomètre expert à Antananarivo (Madagascar). Sécurisation foncière, topographie d'ingénierie, mines & données géospatiales.</p>
+      </div>
+      <div>
+        <h4>Liens rapides</h4>
+        <ul>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="notre-cabinet.html">Notre cabinet</a></li>
+          <li><a href="realisations.html">Réalisations</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>Antananarivo, Madagascar</li>
+          <li><a href="contact.html">Demande de devis</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <small>© 2026 TERRAXIS – Tous droits réservés.</small>
+    </div>
+  </footer>
+</body>
+</html>
